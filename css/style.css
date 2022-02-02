@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-family: 'Montserrat', sans-serif;
+}
+.banner
+{
+	
+	background: url("");
+	background: linear-gradient(to right, #67b26f 0%, #4ca2cd 100%);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+/* Menu */
+.navbar
+{
+	background: linear-gradient(to right, #67b26f 0%, #4ca2cd 100%);
+  border: none;	
+}
+.navbar-brand
+{
+	padding-left: 3em;
+	color: #eee !important;
+	letter-spacing: 1px;
+	font-size: 26px;
+}
+.navbar-brand:hover
+{
+	color: seagreen !important;
+}
+.navbar-right
+{
+	font-size: 16px;
+	padding-top: 0.3em;
+}
+.navbar-right li a 
+{
+	color: #eee !important;
+	letter-spacing: 1px;
+}
+.navbar-right li a:hover
+{
+	color: seagreen !important;
+}
+/* /Menu */
+
+/*Banner*/
+.banner-text
+{
+	padding: 18% 0;
+	text-align: center;
+	width: 100% !important;
+	color: #eee;
+}
+.banner-text img
+{
+	
+	position: absolute;
+	width: 128px;
+	left: 50%;
+	right: 50%;
+	transform: translate(-50% , -50%);
+	border: 6px solid #fff;
+	border-radius: 100px;
+}
+.banner-text h1
+{
+	margin-top: 2.5em;
+  letter-spacing: 4px;
+  margin-bottom: 0.5em;
+}
+.banner-text h3
+{
+ display: inline;
+  letter-spacing: 2px;
+
+}
+/* /Banner */
+
+/*About*/
+.about
+{
+	margin-top: 1.5em;	
+}
+ .about h2
+ {
+ 	text-align: center;
+ 	width: 100%;
+ 	letter-spacing: 12px;
+ 	color: #000;
+ 	margin-left: 0.3em;
+ }
+ .about p
+ {
+ 	text-align: justify;
+ 	font-size: 16px;
+ 	letter-spacing: 1px;
+ 	word-spacing: 1px;
+ 	line-height: 1.8;
+ 	color: #777;
+ }
+ .strike
+ {
+ 	margin-top: 1.5em;
+ 	margin-bottom: 2em;
+ 	display: block;
+ 	text-align: center;
+ 	overflow: hidden;
+ 	white-space: nowrap;
+ }
+ .strike span
+ {
+ 	position: relative;
+ 	display: inline-block;
+ }
+ .fa-user
+ {
+ 	color: #222;
+ 	font-size: 26px;
+ }
+ .strike span:before 
+ {
+ 	content: "";
+ 	position: absolute;
+ 	top: 50%;
+ 	width: 80px;
+ 	height: 1px;
+ 	background: #000;
+ 	right: 100%;
+ 	margin-right: 20px;
+ }
+.strike span:after
+{
+	content: "";
+ 	position: absolute;
+ 	top: 50%;
+ 	width: 80px;
+ 	height: 1px;
+ 	background: #000;
+ 	left: 100%;
+ 	margin-left: 20px;
+}
+.social-icons
+{
+	margin-top: 3em !important;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.social-icons a:nth-child(1)
+{
+	background:  #3b5999;
+	padding: 20px 25px ;
+	border-radius: 50px;
+	color: #eee;
+	margin-left: 25px;
+	text-align: center;	
+}
+.social-icons a:nth-child(2)
+{
+	background: #55acee;
+	padding: 21px 24px ;
+	border-radius: 50px;
+	color: #eee;
+	margin-left: 25px;
+	text-align: center;	
+}
+.social-icons a:nth-child(3)
+{
+	background: #e4405f;
+	padding: 20px 24px ;
+	border-radius: 50px;
+	color: #eee;
+	margin-left: 25px;
+	text-align: center;	
+}
+/* /About*/
+
+/* Skills */
+.skills
+{
+
+	position: relative;
+	margin-top: 5em;
+	padding-top: 1.3em;
+	background: linear-gradient(to right, #67b26f 0%, #4ca2cd 100%);
+}
+
+.skills h2
+ {
+ 	text-align: center;
+ 	width: 100%;
+ 	letter-spacing: 12px;
+ 	color: #000;
+ 	margin-left: 0.3em;
+ }
+ .fa-cog , .fa-book , .fa-wrench , .fa-comment
+ {
+     color: #222;
+ 	font-size: 26px;	
+ }
+.skills .container
+{
+	width: 1000px;
+	margin: 50px auto;
+}
+
+.skills .box
+{
+	float: left;
+	width: 25%;
+}
+.skills .box .chart
+{
+	position: relative;
+	width: 140px;
+	height: 140px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30px;
+	line-height: 140px;
+}
+.skills .box h3
+{
+	text-align: center;
+	text-transform: uppercase;
+}
+.container .box canvas
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/* /Skills */
+
+/*Education*/
+.education
+{
+	
+	padding-bottom: 5em;
+	position: relative;
+	padding-top: 1.3em;
+	background:  #e6e6e6;
+}
+
+.education h2
+ {
+ 	text-align: center;
+ 	width: 100%;
+ 	letter-spacing: 12px;
+ 	color: #000;
+ 	margin-left: 0.3em;
+ }
+ 
+ 
+ .edu-box
+ {
+ 	float: left;
+ 	width: 15%;
+ 	margin-left: 11em;
+    text-align: center;
+ }
+ .date
+ {
+ 	padding-top: 10px ;
+ 	padding-bottom: 5px;
+ 	display: block;
+ 	background:#00e6b8;
+ 	color: white;
+ }
+  .graduate
+ {
+ 	padding-top: 8px ;
+ 	padding-bottom: 5px;
+ 	display: block;
+ 	background: #00b38f;
+ 	color: white;
+ }
+ .education-desc
+ {
+ 	margin-top: 3em;
+ }
+ .edu-list:before
+ {
+ 	content: "";
+ 	position: absolute;
+    border-right: 20px solid transparent;
+    border-top: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid #00e6b8 ;
+    margin-top: -2.8em;
+    margin-left: -1.8em;
+ }
+.edu-list
+{
+	margin-left: 5.3em;
+	float: left;
+  width: 25%;
+  text-align: center;
+}
+ .degree
+ {
+ 	padding-top: 10px ;
+ 	padding-bottom: 5px;
+ 	display: block;
+ 	background:#00e6b8;
+ 	color: black;
+ }
+  .desc
+ {
+ 	padding-top: 8px ;
+ 	padding-bottom: 5px;
+ 	padding-left: 5px; 
+ 	padding-right: 5px; 
+ 	display: block;
+ 	background: #fff;
+ 	color: #777;
+ 	box-shadow: 5px 10px 8px #ccc;
+
+ }
+/* /Education*/
+
+/* Services */
+.services
+{
+	position: relative;
+	margin-top: 2em;
+}
+.services h2
+ {
+ 	text-align: center;
+ 	width: 100%;
+ 	letter-spacing: 12px;
+ 	color: #000;
+ 	margin-left: 0.3em;
+ }
+ .services .row
+ {
+ 	margin-top: 1.5em;
+ }
+ .services .thumbnail
+ {
+ 	border: none;
+ }
+ .services .thumbnail .caption p
+ {
+ 	margin-top: 0.6em;
+ 	text-align: center;
+ 	font-weight: old;
+ 	font-size: 18px;
+ }
+/* Services */
+
+/* Contact */
+.contact
+{
+	padding-bottom: 3em;
+	margin-top: 1em;
+	padding-top: 1.5em;
+	background: linear-gradient(to right, #67b26f 0%, #4ca2cd 100%); 
+}
+.contact h2
+ {
+ 	text-align: center;
+ 	width: 100%;
+ 	letter-spacing: 12px;
+ 	color: #000;
+ 	margin-left: 0.3em;
+ }
+ .contact h3
+ {
+ 	letter-spacing: 2px;
+ 	color: black;
+ }
+ .contact p
+ {
+ 	letter-spacing: 1px;
+ 	font-size: 17px;
+ 	line-height: 2;
+ 	color: #000 ;
+ }
+ .contact h4
+ {
+ 	margin-top: 1.3em;
+ 	font-weight: bold;
+ 	margin-bottom: 1.4em;
+ }
+ .contact h5 , .contact h5 a
+ {
+ 	font-size: 14px;
+ 	color: black;
+ }
+ .contact input[type="text"]
+ {
+ 	border: none;
+ 	border-radius: 0;
+ 	padding: 25px 25px;
+ }
+ textarea
+ {
+ 	margin-top: 1em;
+ 	border: none !important;
+ 	border-radius: 0 !important;
+ 	resize: none;
+ }
+ .contact button
+ {
+ 	margin-top: 1em;
+ 	background: transparent;
+ 	border: 2px solid  #ccc !important;
+ 	font-size: 24px;
+ 	padding: 10px 30px;
+ }
+/* /Contact */
